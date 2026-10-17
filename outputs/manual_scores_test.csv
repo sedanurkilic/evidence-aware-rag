@@ -1,0 +1,21 @@
+id,category,no_retrieval_manual,dense_rag_manual,exp1_manual,note
+test_md_01,metadata,0,1,1,"Exp1 says 0.62 pounds (or 9.98 ounces): small conflation, 0.62 lb is about 9.9 oz"
+test_md_02,metadata,0,1,1,
+test_md_03,metadata,0,0,1,baseline abstained: metadata record not retrieved
+test_md_04,metadata,0,0,1,baseline abstained: metadata record not retrieved
+test_rev_01,review,0,1,1,no_retrieval abstained
+test_rev_02,review,0,1,1,no_retrieval abstained
+test_rev_03,review,1,1,1,no_retrieval direction right but ungrounded guess (invents lavender/cedar details); Exp1 frames opinions as mixed although mostly positive
+test_rev_04,review,1,1,1,no_retrieval direction right but ungrounded guess
+test_rm_01,review_metadata,0,1,1,"no_retrieval: vegan right, taste described as mixed/earthy, gold is mostly praise"
+test_rm_02,review_metadata,0,1,1,no_retrieval abstained
+test_rm_03,review_metadata,0,1,1,no_retrieval says battery holds a charge well: contradicts the reviews
+test_rm_04,review_metadata,0,1,1,no_retrieval says it dissolves well in cold liquids: contradicts the reviews
+test_rm_05,review_metadata,0,1,1,"baseline gave no [S#] citations at all (prompt violation), facts right; no_retrieval abstained"
+test_rm_06,review_metadata,0,0,1,baseline says 'not unscented' but listing says Unscented (regex false positive); no_retrieval abstained
+test_cmp_01,comparison,0,0,1,
+test_cmp_02,comparison,0,0,0,Exp1 retrieved one product only
+test_cmp_03,comparison,0,0,0,Exp1 retrieved only one named product
+test_ins_01,insufficient,1,1,1,correct abstention
+test_ins_02,insufficient,1,1,1,correct abstention
+test_ins_03,insufficient,0,1,1,no_retrieval answered from world knowledge instead of abstaining
