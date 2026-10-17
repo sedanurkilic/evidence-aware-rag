@@ -14,6 +14,11 @@ embedding:
   model: sentence-transformers/all-MiniLM-L6-v2
   max_seq_length: 256        # model default; longer texts are chunked (see data/index code)
 
+index:
+  chroma_path: .chroma          # git-ignored, rebuilt by `python src/index.py`
+  collection: health_reviews
+  batch_size: 64
+
 retrieval:
   top_k: 5
 

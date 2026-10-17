@@ -1,0 +1,17 @@
+{
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "max_seq_length": 256,
+  "chunks_total": 29852,
+  "chunks_by_source_type": {
+    "metadata": 1480,
+    "review": 28372
+  },
+  "multi_chunk_documents": 965,
+  "chunk_tokens": {
+    "median": 72.0,
+    "max": 256,
+    "over_limit": 0
+  },
+  "collection_count": 29852,
+  "seconds": 651.4
+}
