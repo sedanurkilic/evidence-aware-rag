@@ -209,3 +209,6 @@ Gold evidence lists are capped at 6 reviews and are not exhaustive, so evidence 
 ## 9. Manual scoring of the test answers (after the frozen run; rubric for the regex scorer unchanged)
 All 60 test answers (3 systems x 20) were read and scored by hand; per-question scores and notes are in `outputs/manual_scores_test.csv`. Answerable questions: no_retrieval 2/17, baseline 11/17, Exp 1 15/17; correct abstentions 2/3, 3/3, 3/3.
 Disagreements with the regex scorer: baseline test_rm_06 (regex 1, manual 0) and no_retrieval test_rm_01, test_rm_03, test_rm_04 (regex 1, manual 0: invented or contradicting review content). Scoring was done by the assistant, not independently; author review of the marked judgement calls is pending.
+
+## 10. Process disclosure (added after comparing the work with the assessment text)
+The assessment asks for the dev/test split before tuning. The dev questions (10) and the dev experiments were done first; the 20 test questions were written afterwards, from the test product pool, without running them during tuning, and frozen before any test run (tag `frozen-before-test`). The question authors knew the intervention; 13 of the 17 answerable test questions need metadata. This weakens the independence of the test set and is stated in REPORT.md section 3.

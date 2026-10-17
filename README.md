@@ -20,7 +20,9 @@ Expected: `OK`, then `answerable: all_facts 15 / 17` (baseline 12 / 17, no_retri
 python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
 cp .env.example .env            # then put GEMINI_API_KEY=... into .env
 
-# 1. OPTIONAL, only to rebuild the corpus: raw data from Amazon Reviews 2023 (McAuley Lab), category Health_and_Personal_Care (reviews and meta files), into data/raw/.
+# 1. OPTIONAL, only to rebuild the corpus: raw data from Amazon Reviews 2023 (McAuley Lab), category Health_and_Personal_Care, into data/raw/ (compressed files, about 1 GB together):
+#      https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/review_categories/Health_and_Personal_Care.jsonl.gz
+#      https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/meta_categories/meta_Health_and_Personal_Care.jsonl.gz
 #    Without it you can start at step `python src/index.py`, because data/processed/ is already in the repository.
 mkdir -p data/raw
 #   data/raw/Health_and_Personal_Care.jsonl.gz
