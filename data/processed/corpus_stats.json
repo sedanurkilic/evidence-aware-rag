@@ -1,0 +1,33 @@
+{
+  "seed": 42,
+  "parameters": {
+    "min_reviews_per_product": 20,
+    "max_reviews_per_product": 30,
+    "target_products": 1000,
+    "min_total_reviews": 25000,
+    "candidate_buffer": 1.2,
+    "dev_pool_fraction": 0.33
+  },
+  "raw_reviews_total": 494121,
+  "products_with_reviews_raw": 60274,
+  "eligible_products": 4171,
+  "products_in_corpus": 1000,
+  "reviews_in_corpus": 27523,
+  "dev_pool_products": 330,
+  "test_pool_products": 670,
+  "cleaning": {
+    "dropped_exact_duplicate": 1781,
+    "raw_reviews_of_processed_products": 80957,
+    "dropped_empty": 32,
+    "products_skipped_too_few_after_cleaning": 15
+  },
+  "rating_distribution_in_corpus": {
+    "1.0": 3797,
+    "2.0": 1674,
+    "3.0": 2156,
+    "4.0": 3166,
+    "5.0": 16730
+  },
+  "reviews_jsonl_md5": "48edd00789dceedf0f55865f62991d0b",
+  "products_jsonl_md5": "ca31d1aa6aeda3cfee05412d77778618"
+}

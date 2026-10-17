@@ -1,0 +1,92 @@
+{
+  "review_fields": [
+    "asin",
+    "helpful_vote",
+    "images",
+    "parent_asin",
+    "rating",
+    "text",
+    "timestamp",
+    "title",
+    "user_id",
+    "verified_purchase"
+  ],
+  "meta_fields": [
+    "average_rating",
+    "bought_together",
+    "categories",
+    "description",
+    "details",
+    "features",
+    "images",
+    "main_category",
+    "parent_asin",
+    "price",
+    "rating_number",
+    "store",
+    "title",
+    "videos"
+  ],
+  "reviews_total": 494121,
+  "meta_records_total": 60293,
+  "products_with_reviews": 60274,
+  "products_with_reviews_and_meta": 60274,
+  "products_with_reviews_and_usable_meta": 59564,
+  "reviews_per_product": {
+    "mean": 8.2,
+    "median": 2.0,
+    "p90": 14,
+    "p99": 97,
+    "max": 3192
+  },
+  "thresholds": {
+    "5": {
+      "products_with_usable_metadata": 16818,
+      "reviews_in_those_products": 416250
+    },
+    "10": {
+      "products_with_usable_metadata": 8672,
+      "reviews_in_those_products": 363440
+    },
+    "15": {
+      "products_with_usable_metadata": 5703,
+      "reviews_in_those_products": 328752
+    },
+    "20": {
+      "products_with_usable_metadata": 4171,
+      "reviews_in_those_products": 303089
+    },
+    "25": {
+      "products_with_usable_metadata": 3177,
+      "reviews_in_those_products": 281404
+    },
+    "30": {
+      "products_with_usable_metadata": 2576,
+      "reviews_in_those_products": 265300
+    },
+    "50": {
+      "products_with_usable_metadata": 1408,
+      "reviews_in_those_products": 221272
+    }
+  },
+  "review_words": {
+    "median": 20,
+    "p90": 80,
+    "p99": 237,
+    "share_over_200_words": 0.0153
+  },
+  "meta_text_words": {
+    "median": 35.0,
+    "p90": 180,
+    "p99": 461
+  },
+  "empty_review_text": 249,
+  "exact_duplicate_reviews_within_product": 7355,
+  "rating_distribution": {
+    "1.0": 69564,
+    "2.0": 28895,
+    "3.0": 36949,
+    "4.0": 57000,
+    "5.0": 301713
+  }
+}

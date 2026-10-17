@@ -1,0 +1,24 @@
+{
+  "cache_key": "1147f85190943620d87ab72e07cc288d9e298fef2c9cf6a989798e9ba8f808d5",
+  "tag": "smoke",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "OK",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 61,
+    "candidatesTokenCount": 1,
+    "totalTokenCount": 62,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 61
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.74,
+  "timestamp_utc": "2026-10-17T08:16:58.326357+00:00",
+  "cache_hit": false
+}
