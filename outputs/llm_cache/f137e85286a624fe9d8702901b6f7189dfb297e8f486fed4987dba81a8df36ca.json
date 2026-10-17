@@ -1,0 +1,24 @@
+{
+  "cache_key": "f137e85286a624fe9d8702901b6f7189dfb297e8f486fed4987dba81a8df36ca",
+  "tag": "dev/dense_rag/dev_cmp_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "The EOS Organic Lip Balm Care Collection (9 Pack) has the higher average rating with a 4.8 rating from 1050 ratings [S4]. In comparison, the Maybelline Baby Lips Balm Ruby Star has an average rating of 4.4 from 193 ratings [S5].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 565,
+    "candidatesTokenCount": 65,
+    "totalTokenCount": 630,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 565
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.89,
+  "timestamp_utc": "2026-10-17T09:28:02.622369+00:00",
+  "cache_hit": false
+}

@@ -1,0 +1,24 @@
+{
+  "cache_key": "0f622063065f67f12f90fca413e442109d69b5a7c6a8c318dc7be4d21c6be664",
+  "tag": "dev/dense_rag/dev_rm_04",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "The BeautyLux collagen powder has a unit count of 8.0 ounces (234g) [S1, S2]. Reviewers describe its taste as tasteless, having no flavor, or tasting fine without an odd flavor that ruins drinks like tea [S1, S3, S4].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 771,
+    "candidatesTokenCount": 62,
+    "totalTokenCount": 833,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 771
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 1.07,
+  "timestamp_utc": "2026-10-17T09:27:58.305631+00:00",
+  "cache_hit": false
+}

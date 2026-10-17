@@ -1,0 +1,24 @@
+{
+  "cache_key": "c10427582b5a4bd391419c69884dd8f6b272af45c696b9ec53fac5aec0903da1",
+  "tag": "dev/dense_rag/dev_cmp_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: The sources contain information for the EOS Organic Lip Balm Care Collection (9 Pack) and Eos Evolution of Smooth Lip Balm, but do not provide any rating information for Maybelline Baby Lips Balm Ruby Star.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 648,
+    "candidatesTokenCount": 50,
+    "totalTokenCount": 698,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 1.03,
+  "timestamp_utc": "2026-10-17T09:33:23.773484+00:00",
+  "cache_hit": false
+}

@@ -1,0 +1,24 @@
+{
+  "cache_key": "bd179c450743ffa340e55b5ad858d1fc9cb416ddc69abe92454a73407d430fb3",
+  "tag": "dev/dense_rag/dev_rm_03",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "The DR. BO Vegan Probiotics bottle contains 60 capsules [S1]. Reviewers state that the supplement immediately helps with digestion problems and improves digestion overall [S2, S3].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 946,
+    "candidatesTokenCount": 39,
+    "totalTokenCount": 985,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 946
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 1.08,
+  "timestamp_utc": "2026-10-17T09:27:53.803059+00:00",
+  "cache_hit": false
+}

@@ -1,0 +1,24 @@
+{
+  "cache_key": "edb1a041d76237218c7682f12d36a7723d7383d337fbb12ce2dcac147bbe1135",
+  "tag": "dev/no_retrieval/dev_md_02",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: I do not have specific product details regarding the exact material composition and hose length of the Drive Medical Deluxe Shower Spray in my knowledge base.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 73,
+    "candidatesTokenCount": 35,
+    "totalTokenCount": 108,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 73
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 1.07,
+  "timestamp_utc": "2026-10-17T09:17:02.810552+00:00",
+  "cache_hit": false
+}

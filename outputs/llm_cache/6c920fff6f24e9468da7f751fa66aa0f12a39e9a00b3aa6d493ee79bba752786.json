@@ -1,0 +1,24 @@
+{
+  "cache_key": "6c920fff6f24e9468da7f751fa66aa0f12a39e9a00b3aa6d493ee79bba752786",
+  "tag": "dev/dense_rag/dev_rm_02",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Yes, the ASNME facial cleansing brush is rechargeable [S1]. However, multiple reviewers report severe battery problems, noting that the device either fails to hold a charge after a short period, requires daily charging, or completely stops working within weeks [S1, S2, S3].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 851,
+    "candidatesTokenCount": 58,
+    "totalTokenCount": 909,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 851
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.83,
+  "timestamp_utc": "2026-10-17T09:33:10.052367+00:00",
+  "cache_hit": false
+}

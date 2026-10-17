@@ -1,0 +1,36 @@
+# Experiment 2 (DIAGNOSTIC, dev only, uses gold product ids): identical to experiment_1.yaml except the
+# line marked CHANGED. The metadata slots are filled with the best metadata chunks of OTHER products.
+seed: 42
+
+corpus:
+  min_reviews_per_product: 20
+  max_reviews_per_product: 30
+  target_products: 1000
+  min_total_reviews: 25000
+  candidate_buffer: 1.2        # draw 20% extra candidates in case cleaning drops some
+  dev_pool_fraction: 0.33      # share of products whose questions go to the dev set
+
+embedding:
+  model: sentence-transformers/all-MiniLM-L6-v2
+  max_seq_length: 256        # model default; longer texts are chunked (see data/index code)
+
+index:
+  chroma_path: .chroma          # git-ignored, rebuilt by `python src/index.py`
+  collection: health_reviews
+  batch_size: 64
+
+retrieval:
+  top_k: 5                  # unchanged: same context budget
+  mode: source_aware
+  review_k: 3
+  metadata_k: 2
+  diagnostic_exclude_gold_metadata: true   # CHANGED
+
+generation:
+  provider: gemini
+  model: gemini-3.5-flash-lite   # fixed id, never a "-latest" alias
+  temperature: 0
+  max_output_tokens: 600
+  min_seconds_between_calls: 4.5   # free tier: 15 requests/minute
+  cache_dir: outputs/llm_cache
+  call_log: outputs/llm_calls.jsonl

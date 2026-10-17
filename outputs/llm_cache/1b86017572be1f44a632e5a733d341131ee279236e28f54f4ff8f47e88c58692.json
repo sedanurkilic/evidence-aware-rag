@@ -1,0 +1,24 @@
+{
+  "cache_key": "1b86017572be1f44a632e5a733d341131ee279236e28f54f4ff8f47e88c58692",
+  "tag": "dev/dense_rag/dev_md_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "The Solo Raspberry Filling has a flavor of raspberry and a total unit count of 72.00 ounces [S4].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 667,
+    "candidatesTokenCount": 26,
+    "totalTokenCount": 693,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 667
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.87,
+  "timestamp_utc": "2026-10-17T09:27:26.564475+00:00",
+  "cache_hit": false
+}

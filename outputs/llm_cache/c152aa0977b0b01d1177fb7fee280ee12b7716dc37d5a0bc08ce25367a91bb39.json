@@ -1,0 +1,24 @@
+{
+  "cache_key": "c152aa0977b0b01d1177fb7fee280ee12b7716dc37d5a0bc08ce25367a91bb39",
+  "tag": "dev/dense_rag/dev_rev_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Reviewers have mixed opinions about the scent of the GreenFist cleaner. Some customers note that it emits a nice or mild orange scent [S2, S4], while another mentions it does not have a real fruity smell [S3]. However, another reviewer was displeased to find that fragrance was added, stating that it caused an asthma attack [S1].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 779,
+    "candidatesTokenCount": 74,
+    "totalTokenCount": 853,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 779
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 1.06,
+  "timestamp_utc": "2026-10-17T09:16:25.060787+00:00",
+  "cache_hit": false
+}

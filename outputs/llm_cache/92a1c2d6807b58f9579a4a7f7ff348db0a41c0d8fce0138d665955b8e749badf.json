@@ -1,0 +1,24 @@
+{
+  "cache_key": "92a1c2d6807b58f9579a4a7f7ff348db0a41c0d8fce0138d665955b8e749badf",
+  "tag": "dev/dense_rag/dev_rm_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "One reviewer describes CitriSafe Remedy Laundry Liquid Detergent as \"free of scents\" [S2], while another notes that it left their clothes smelling clean [S3]. Another user mentions that they are sensitive to smells and essential oils, yet they tolerate this product very well [S3]. The provided sources do not explicitly state whether the product is officially fragrance-free by manufacturer definition, only that a reviewer found it free of scents [S2].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 789,
+    "candidatesTokenCount": 91,
+    "totalTokenCount": 880,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 789
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.93,
+  "timestamp_utc": "2026-10-17T09:33:05.652633+00:00",
+  "cache_hit": false
+}

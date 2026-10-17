@@ -1,0 +1,24 @@
+{
+  "cache_key": "fea5cff7e0326a9d1990d67708628d8aa6bcf553c8bbc974d6f195adb22d8366",
+  "tag": "dev/dense_rag/dev_rev_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Reviewers have mixed opinions about the smell of the GreenFist Hydrogen Peroxide cleaner. One reviewer stated that added perfume caused an asthma attack and expressed frustration over the fragrance [S1], while another noted that it emits a nice orange scent instead of harsh chemical smells [S2]. Additionally, a third reviewer mentioned that it does not have an overpowering chemical smell or a truly fruity smell [S3].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 917,
+    "candidatesTokenCount": 81,
+    "totalTokenCount": 998,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 917
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 1.13,
+  "timestamp_utc": "2026-10-17T09:32:56.840501+00:00",
+  "cache_hit": false
+}

@@ -1,0 +1,24 @@
+{
+  "cache_key": "d285ec67193e93425c550b47f70a7f08c1cecbcca26b290a29828a7059429520",
+  "tag": "dev/dense_rag/dev_rm_03",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: The provided sources do not mention the number of capsules in the DR. BO Vegan Probiotics bottle, though reviewers note that the product helps with digestion problems [S1, S2].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 962,
+    "candidatesTokenCount": 45,
+    "totalTokenCount": 1007,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 962
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.93,
+  "timestamp_utc": "2026-10-17T09:33:14.659273+00:00",
+  "cache_hit": false
+}

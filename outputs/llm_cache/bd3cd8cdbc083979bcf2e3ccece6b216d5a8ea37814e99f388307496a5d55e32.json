@@ -1,0 +1,24 @@
+{
+  "cache_key": "bd3cd8cdbc083979bcf2e3ccece6b216d5a8ea37814e99f388307496a5d55e32",
+  "tag": "dev/dense_rag/dev_ins_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: The provided sources do not contain information about the warranty of the ASNME facial cleansing brush.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 893,
+    "candidatesTokenCount": 26,
+    "totalTokenCount": 919,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 893
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.78,
+  "timestamp_utc": "2026-10-17T09:28:07.017577+00:00",
+  "cache_hit": false
+}

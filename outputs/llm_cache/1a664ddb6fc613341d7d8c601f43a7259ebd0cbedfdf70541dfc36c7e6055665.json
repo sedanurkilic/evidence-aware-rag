@@ -1,0 +1,24 @@
+{
+  "cache_key": "1a664ddb6fc613341d7d8c601f43a7259ebd0cbedfdf70541dfc36c7e6055665",
+  "tag": "dev/dense_rag/dev_cmp_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: The sources provide individual customer ratings of 5.0 for both products [S1-S5], but they do not contain the overall average ratings.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 326,
+    "candidatesTokenCount": 39,
+    "totalTokenCount": 365,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 326
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.73,
+  "timestamp_utc": "2026-10-17T09:16:51.755521+00:00",
+  "cache_hit": false
+}

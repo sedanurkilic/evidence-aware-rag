@@ -1,0 +1,24 @@
+{
+  "cache_key": "3dbe8592f189f2aa76127f6248cb3d0aea59f95c4f0b82b93486db230b770406",
+  "tag": "dev/dense_rag/dev_rev_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Reviewers have mixed opinions about the scent of the GreenFist cleaner. One reviewer experienced an asthma attack because perfume and added fragrance were included in the product [S1]. In contrast, other reviewers appreciated the scent, describing it as a nice, not overpowering orange smell rather than the odor of serious chemicals [S2, S3].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 921,
+    "candidatesTokenCount": 68,
+    "totalTokenCount": 989,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 921
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 1.48,
+  "timestamp_utc": "2026-10-17T09:27:36.187921+00:00",
+  "cache_hit": false
+}

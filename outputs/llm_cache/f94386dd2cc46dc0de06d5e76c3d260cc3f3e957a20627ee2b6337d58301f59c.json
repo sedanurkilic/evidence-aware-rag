@@ -1,0 +1,24 @@
+{
+  "cache_key": "f94386dd2cc46dc0de06d5e76c3d260cc3f3e957a20627ee2b6337d58301f59c",
+  "tag": "dev/dense_rag/dev_md_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "The product has a raspberry flavor and comes in a pack of 6 cans, with each can containing 12 ounces [S1, S4]. However, one customer noted that they only received 2 cans instead of the stated 6 per pack [S4].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 442,
+    "candidatesTokenCount": 55,
+    "totalTokenCount": 497,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 442
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.95,
+  "timestamp_utc": "2026-10-17T09:16:15.947170+00:00",
+  "cache_hit": false
+}

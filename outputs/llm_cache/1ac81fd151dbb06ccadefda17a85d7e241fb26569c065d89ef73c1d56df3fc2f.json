@@ -1,0 +1,24 @@
+{
+  "cache_key": "1ac81fd151dbb06ccadefda17a85d7e241fb26569c065d89ef73c1d56df3fc2f",
+  "tag": "dev/dense_rag/dev_md_02",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: The sources mention that the entire product is made of plastic (including the fastening part) [S2], but they do not provide any information regarding the length of the hose.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 405,
+    "candidatesTokenCount": 43,
+    "totalTokenCount": 448,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 405
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.96,
+  "timestamp_utc": "2026-10-17T09:16:20.456056+00:00",
+  "cache_hit": false
+}

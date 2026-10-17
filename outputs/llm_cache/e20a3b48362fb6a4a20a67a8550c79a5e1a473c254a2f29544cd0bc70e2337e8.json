@@ -1,0 +1,24 @@
+{
+  "cache_key": "e20a3b48362fb6a4a20a67a8550c79a5e1a473c254a2f29544cd0bc70e2337e8",
+  "tag": "dev/no_retrieval/dev_md_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "The total unit count is 6 cans, with each can containing 12 ounces of filling. The flavor is raspberry.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 78,
+    "candidatesTokenCount": 25,
+    "totalTokenCount": 103,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 78
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.9,
+  "timestamp_utc": "2026-10-17T09:16:58.137574+00:00",
+  "cache_hit": false
+}

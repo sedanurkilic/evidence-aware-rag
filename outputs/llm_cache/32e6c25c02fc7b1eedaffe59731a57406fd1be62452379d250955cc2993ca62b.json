@@ -1,0 +1,24 @@
+{
+  "cache_key": "32e6c25c02fc7b1eedaffe59731a57406fd1be62452379d250955cc2993ca62b",
+  "tag": "dev/dense_rag/dev_md_02",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "The Drive Medical Deluxe Shower Spray is made of plastic [S2, S4, S5], and its reinforced nylon hose is 80 inches long [S4, S5].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 863,
+    "candidatesTokenCount": 38,
+    "totalTokenCount": 901,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 863
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.76,
+  "timestamp_utc": "2026-10-17T09:27:30.961847+00:00",
+  "cache_hit": false
+}

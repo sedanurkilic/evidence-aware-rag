@@ -1,0 +1,24 @@
+{
+  "cache_key": "5a94d62862349f49eb3d64a28becca9fe05316d32a0729200387a0eac0d37f78",
+  "tag": "dev/dense_rag/dev_rm_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Yes, CitriSafe Remedy Laundry Liquid Detergent is fragrance-free [S1]. Reviewers note that the product is free of scents [S3], leaves clothes smelling clean [S4], and effectively removes odors from clothing [S2].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 869,
+    "candidatesTokenCount": 50,
+    "totalTokenCount": 919,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 869
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.97,
+  "timestamp_utc": "2026-10-17T09:27:44.689763+00:00",
+  "cache_hit": false
+}

@@ -1,0 +1,24 @@
+{
+  "cache_key": "fdfa41199d520e72f3071fdef2ad50bde6a46eb4c90db77a72ca0a2422afc4f0",
+  "tag": "dev/no_retrieval/dev_rm_04",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: I do not have specific information about a product named \"BeautyLux collagen powder,\" its exact size, or reviewer opinions on its taste.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 71,
+    "candidatesTokenCount": 35,
+    "totalTokenCount": 106,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 71
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.83,
+  "timestamp_utc": "2026-10-17T09:17:29.599003+00:00",
+  "cache_hit": false
+}

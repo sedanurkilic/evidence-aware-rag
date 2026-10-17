@@ -1,0 +1,24 @@
+{
+  "cache_key": "c6820e70f1b17e5b6cfb54d16bb021e9f07cc7a99da9b9b5a3e81be992dec26c",
+  "tag": "dev/no_retrieval/dev_rev_02",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Yes, some reviewers report problems with Breathe-IN Nasal Strips staying on the nose, noting that the adhesive can be weak or that the strips may lift or fall off overnight, especially on oily skin.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 71,
+    "candidatesTokenCount": 42,
+    "totalTokenCount": 113,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 71
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.8,
+  "timestamp_utc": "2026-10-17T09:17:11.550047+00:00",
+  "cache_hit": false
+}

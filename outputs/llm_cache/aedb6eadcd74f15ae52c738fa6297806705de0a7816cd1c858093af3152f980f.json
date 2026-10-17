@@ -1,0 +1,24 @@
+{
+  "cache_key": "aedb6eadcd74f15ae52c738fa6297806705de0a7816cd1c858093af3152f980f",
+  "tag": "dev/no_retrieval/dev_rm_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "CitriSafe Remedy Laundry Liquid Detergent is not entirely fragrance-free, as it is formulated with natural plant extracts and essential oils, specifically designed to combat mold. Reviewers often describe its scent as a fresh, clean, and distinct citrus or herbal aroma due to these ingredients. While many users appreciate the natural scent and find it refreshing, some sensitive individuals note that the aroma can still be noticeable after washing.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 75,
+    "candidatesTokenCount": 82,
+    "totalTokenCount": 157,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 75
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.9,
+  "timestamp_utc": "2026-10-17T09:17:16.158581+00:00",
+  "cache_hit": false
+}

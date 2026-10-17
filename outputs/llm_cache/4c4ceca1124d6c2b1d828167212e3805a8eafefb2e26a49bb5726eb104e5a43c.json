@@ -1,0 +1,24 @@
+{
+  "cache_key": "4c4ceca1124d6c2b1d828167212e3805a8eafefb2e26a49bb5726eb104e5a43c",
+  "tag": "dev/dense_rag/dev_md_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: The provided sources state that the product is a 12oz can in a pack of 6 with a raspberry filling flavor, but they do not list a specific \"unit count\".",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 604,
+    "candidatesTokenCount": 45,
+    "totalTokenCount": 649,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 604
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.93,
+  "timestamp_utc": "2026-10-17T09:32:47.629561+00:00",
+  "cache_hit": false
+}

@@ -1,0 +1,24 @@
+{
+  "cache_key": "4dd23d19f19aff3d008dc473d6769608e64966365ad2d3755d8cbec4c050c8dd",
+  "tag": "dev/dense_rag/dev_rev_02",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Yes, reviewers report that Breathe-IN Nasal Strips have trouble staying on the nose, with multiple customers stating that the strips peel off or lack sufficient adhesive shortly after application [S1, S2, S3].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 916,
+    "candidatesTokenCount": 45,
+    "totalTokenCount": 961,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 916
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.87,
+  "timestamp_utc": "2026-10-17T09:27:40.079545+00:00",
+  "cache_hit": false
+}

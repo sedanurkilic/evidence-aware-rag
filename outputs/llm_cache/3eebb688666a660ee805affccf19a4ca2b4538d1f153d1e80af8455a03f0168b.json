@@ -1,0 +1,24 @@
+{
+  "cache_key": "3eebb688666a660ee805affccf19a4ca2b4538d1f153d1e80af8455a03f0168b",
+  "tag": "dev/no_retrieval/dev_rm_03",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: I do not have access to real-time reviews or specific product details for the DR. BO Vegan Probiotics bottle to confirm the exact capsule count and reviewer feedback.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 77,
+    "candidatesTokenCount": 41,
+    "totalTokenCount": 118,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 77
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.8,
+  "timestamp_utc": "2026-10-17T09:17:25.067161+00:00",
+  "cache_hit": false
+}

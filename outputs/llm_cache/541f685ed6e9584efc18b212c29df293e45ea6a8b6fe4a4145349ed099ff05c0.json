@@ -1,0 +1,24 @@
+{
+  "cache_key": "541f685ed6e9584efc18b212c29df293e45ea6a8b6fe4a4145349ed099ff05c0",
+  "tag": "dev/dense_rag/dev_rm_04",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "The BeautyLux collagen powder is an 8 oz (234g) size [S1, S2, S3]. Reviewers describe its taste as tasteless [S1] or having no flavor [S3], though one reviewer noted that it \"tastes good\" and \"tastes fine\" [S2].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 663,
+    "candidatesTokenCount": 67,
+    "totalTokenCount": 730,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 663
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 1.14,
+  "timestamp_utc": "2026-10-17T09:33:19.369994+00:00",
+  "cache_hit": false
+}

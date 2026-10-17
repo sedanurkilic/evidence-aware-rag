@@ -1,0 +1,24 @@
+{
+  "cache_key": "725409757842ad1e4fd226db64f5047ac56f49a2c6ac212559989c8d552462f0",
+  "tag": "dev/dense_rag/dev_rev_02",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Yes, multiple reviewers report that Breathe-IN Nasal Strips have trouble staying on the nose [S1, S2, S3]. Customers describe the strips as stiff or heavy with little adhesive, noting that they pop off or will not stay on for more than a few minutes even after cleaning the skin [S1, S2, S3].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 1024,
+    "candidatesTokenCount": 72,
+    "totalTokenCount": 1096,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1024
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 1.03,
+  "timestamp_utc": "2026-10-17T09:33:01.241747+00:00",
+  "cache_hit": false
+}

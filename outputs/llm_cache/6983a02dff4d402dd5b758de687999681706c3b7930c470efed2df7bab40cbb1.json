@@ -1,0 +1,24 @@
+{
+  "cache_key": "6983a02dff4d402dd5b758de687999681706c3b7930c470efed2df7bab40cbb1",
+  "tag": "dev/no_retrieval/dev_rev_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: I do not have access to specific customer reviews or real-time feedback data for GreenFist Hydrogen Peroxide all-purpose cleaner.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 73,
+    "candidatesTokenCount": 35,
+    "totalTokenCount": 108,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 73
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.9,
+  "timestamp_utc": "2026-10-17T09:17:07.148815+00:00",
+  "cache_hit": false
+}
