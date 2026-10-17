@@ -1,0 +1,24 @@
+{
+  "cache_key": "ca3b90dc1b4350b69372e1f0b2c043ec02f6dcb23f2b2c1030ceefb0afa7ba80",
+  "tag": "test/dense_rag/test_ins_02",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: The provided sources do not mention the expiration date or shelf life of the Turmeric Curcumin supplement.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 934,
+    "candidatesTokenCount": 28,
+    "totalTokenCount": 962,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 934
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.88,
+  "timestamp_utc": "2026-10-17T09:44:04.902491+00:00",
+  "cache_hit": false
+}

@@ -1,0 +1,24 @@
+{
+  "cache_key": "56cb32b93732dd172d11928eeec8893864dd8e591bce624ad4862c9fb0289dff",
+  "tag": "test/dense_rag/test_md_02",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "The listed unit count for the Jarrow Formulas Citrus Bergamot 500 mg, 60 Veggie Caps, 2 Pack is 120 Count [S1]. The item weight is listed as 0.05 Kilograms (or 1.6 Ounces) [S1].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 533,
+    "candidatesTokenCount": 65,
+    "totalTokenCount": 598,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 533
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.86,
+  "timestamp_utc": "2026-10-17T09:42:48.310727+00:00",
+  "cache_hit": false
+}

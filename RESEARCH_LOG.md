@@ -165,4 +165,43 @@ Limits of this diagnostic: (a) it shows the right metadata is NECESSARY; it cann
 into review chunks, so some facts are answerable from titles; (c) n=10, dev only, one run; (d) the diagnostic uses gold labels and is not a usable system and is not run on test.
 
 ## 7. Final test run
-_(to be filled; test set opened only after configurations are frozen)_
+Run after the freeze commit `f56a38d` (tag `frozen-before-test`): code, prompts, configs, test questions and expected-fact rules were not changed afterwards.
+Each system was run once on the 20 test questions (17 answerable, 3 unanswerable); 0 failed questions, no quota stop.
+LLM calls: dense_rag 20, no_retrieval 20, Exp 1 18 real calls + 2 cache hits (identical prompts). Counts below, n is small.
+
+| system | all expected facts (answerable, n=17) | false abstentions | correct abstentions (n=3) |
+|---|---|---|---|
+| no_retrieval | 5/17 | 12 | 2/3 (test_ins_03 was answered, not abstained) |
+| dense_rag (baseline) | 12/17 | 5 | 3/3 |
+| Exp 1 source-aware | 15/17 | 2 | 3/3 |
+
+Per category (all expected facts):
+| category (n) | no_retrieval | baseline | Exp 1 |
+|---|---|---|---|
+| metadata (4) | 0 | 2 | 4 |
+| review (4) | 2 | 4 | 4 |
+| review+metadata (6) | 3 | 6 | 6 |
+| comparison (3) | 0 | 0 | 1 |
+
+Retrieval (answerable questions, top-5):
+| | evidence hit | joint success | mean product match |
+|---|---|---|---|
+| baseline | 12/17 | 7/17 | 0.89 |
+| Exp 1 | 17/17 | 15/17 | 0.78 |
+Per category joint success, baseline -> Exp 1: metadata 2/4 -> 4/4, review 4/4 -> 4/4, review+metadata 1/6 -> 4/6, comparison 0/3 -> 3/3.
+
+Paired comparison baseline vs Exp 1 on the same 17 questions: 3 questions fixed (test_md_03, test_md_04, test_cmp_01), 0 regressed, 14 unchanged.
+An exact sign test on 3 vs 0 changed questions gives two-sided p = 0.25: this test set alone does not show the difference is not chance.
+Remaining failures of Exp 1: test_cmp_02 and test_cmp_03 (the system abstained although both products' metadata exist); not fixed by the intervention.
+Prediction check for the frozen test (the dev-based predictions were not repeated, so this is descriptive): the dev pattern repeated in direction (metadata questions fixed, comparison partly), and the cost on product match repeated (0.89 -> 0.78).
+Observation against H1 as the only mechanism: baseline joint success for review+metadata questions was 1/6 although all 6 were answered with all facts, because the product title carried in every review chunk and the review text itself contained the metadata facts (e.g. "vegan", "rechargeable").
+Gold evidence lists are capped at 6 reviews and are not exhaustive, so evidence hit/recall are lower bounds. The regex fact scorer is a proxy, never checked exhaustively by hand; the answers shown with --show were read for the cases in REPORT.md.
+
+## 8. Post-test diagnostics (read-only, no code or rubric changes)
+- test_cmp_02 (Exp 1): retrieved 3 reviews + 1 metadata record of ONE product (Clif Bar Luna) and the metadata of an unrelated product (Julian Bakery); the other
+  named product (Grenade) was never retrieved, so the system abstained. test_cmp_03 (Exp 1): retrieved reviews and metadata of Zim's Max Freeze (including the
+  4 Ounce single pack, a different ASIN from the 3-pack asked about) and nothing of Art of Sport. Two-product questions are dominated by one product in a single dense query; the 2 metadata slots do not fix that.
+- Near-duplicate products exist across pools: B0BQ32KBN7 (dev pool, Zim's Max Freeze 4 oz) was retrieved for a test question about B07L4Z37WC (test pool, same product in a 3-pack). The index is shared, questions are split by product; sibling products can act as distractors or as accidental evidence. Not removed (would change the frozen corpus); reported as a limitation.
+- Scoring false positive found in the frozen rubric: baseline test_rm_06 answered "The Art of Sport ... is not unscented"; the regex `unscented` matched inside "not unscented", although the product metadata says "Unscented". Manual reading: the baseline answer contradicts the listing (no metadata was in its context). The rubric was NOT changed; REPORT.md gives the regex score (12/17) and a manually adjusted score (11/17) for the baseline. Exp 1 answers on the same question were correct.
+- no_retrieval: test_ins_03 (latex) was answered from world knowledge about Quies wax ear plugs instead of abstaining. This may be true in the world, but it is not supported by the corpus; the abstention marker measures corpus evidence. test_rev_01 and test_rev_02 were abstentions. Its 5/17 regex score cannot distinguish corpus knowledge from generic plausible text; the answers were not all read.
+- Totals: 99 real Gemini calls logged in outputs/llm_calls.jsonl (1 smoke test, 40 dev, 58 test); 2 cache hits; 0 failed questions.

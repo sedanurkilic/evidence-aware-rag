@@ -1,0 +1,24 @@
+{
+  "cache_key": "b3f39f887c8955995b73aa8b53c23f834157870e0d30caf71b959cb7d4d24dd0",
+  "tag": "test/no_retrieval/test_md_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: I do not have access to specific product listing data such as exact item weight or unit count for this specific Metamucil variant.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 80,
+    "candidatesTokenCount": 35,
+    "totalTokenCount": 115,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 80
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.75,
+  "timestamp_utc": "2026-10-17T09:44:11.147893+00:00",
+  "cache_hit": false
+}

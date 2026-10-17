@@ -1,0 +1,24 @@
+{
+  "cache_key": "5c7bb1e50d9989d525fe13aa5cb9030ccc6d367849e8276d2d0163b4058f9dfd",
+  "tag": "test/dense_rag/test_rm_04",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Yes, NeoCell Super Collagen Peptides is described as unflavored and flavorless by users [S2, S4], though some reviewers note it has a slightly bitter, chalky, or altered taste [S1, S3]. Reviewers report that the powder mixes and dissolves best in warm or hot liquids like coffee, soups, or sauces [S1, S2, S3, S5], but it struggles to dissolve well and can become chunky or gritty in cold water [S1, S3].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 872,
+    "candidatesTokenCount": 105,
+    "totalTokenCount": 977,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 872
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 1.18,
+  "timestamp_utc": "2026-10-17T09:43:33.670570+00:00",
+  "cache_hit": false
+}

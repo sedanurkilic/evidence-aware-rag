@@ -1,0 +1,24 @@
+{
+  "cache_key": "321f0af6601d439992b99f54acb754372e7d70c9b846fa2a70d7d5ec09bb8971",
+  "tag": "test/no_retrieval/test_rm_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Yes, JYM Supplement Science Plant Jym Oatmeal Cookie is a vegan protein powder, as it is 100% plant-based and dairy-free. Reviewers generally have mixed opinions on its taste; some enjoy the sweet, comforting cookie flavor, while others find it to have a typical plant-based, earthy aftertaste. Overall, opinions depend heavily on personal preference for vegan protein flavoring.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 75,
+    "candidatesTokenCount": 81,
+    "totalTokenCount": 156,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 75
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 1.08,
+  "timestamp_utc": "2026-10-17T09:44:47.501351+00:00",
+  "cache_hit": false
+}

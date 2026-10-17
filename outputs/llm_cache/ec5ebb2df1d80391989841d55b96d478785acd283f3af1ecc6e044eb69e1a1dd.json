@@ -1,0 +1,24 @@
+{
+  "cache_key": "ec5ebb2df1d80391989841d55b96d478785acd283f3af1ecc6e044eb69e1a1dd",
+  "tag": "test/dense_rag/test_rev_03",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Reviewers generally praise the scent of the Method Concentrated Laundry Detergent, describing it as great, nice, and a \"perfect smell\" [S2, S3, S4, S5]. One reviewer specifically loves the scent of the Lavender Cedar variety [S2], though another noted that it takes more pumps for the clothes to actually hold the scent [S2].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 473,
+    "candidatesTokenCount": 76,
+    "totalTokenCount": 549,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 473
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.87,
+  "timestamp_utc": "2026-10-17T09:43:10.834456+00:00",
+  "cache_hit": false
+}

@@ -1,0 +1,24 @@
+{
+  "cache_key": "1d7e7fa5b94d239e04fcf745d341dc1bee0656652d9c4cae25a1dbe286f5e005",
+  "tag": "test/dense_rag/test_rev_04",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Yes, reviewers state that the Smith & Nephew Allevyn Gentle Border Sacrum dressing stays in place [S3]. One reviewer specifically notes that it \"sticks and stays in place\" while also being easy to remove without causing skin damage [S3]. Additionally, the product features a wider border specifically designed to help secure the dressing to the sacral area [S2].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 827,
+    "candidatesTokenCount": 76,
+    "totalTokenCount": 903,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 827
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.87,
+  "timestamp_utc": "2026-10-17T09:43:15.342128+00:00",
+  "cache_hit": false
+}

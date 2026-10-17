@@ -1,0 +1,24 @@
+{
+  "cache_key": "6bbd0238a469f9a85f189295344ff51b6ec3c2602aa3ad26bc12557e8d04ccba",
+  "tag": "test/no_retrieval/test_rev_03",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Reviewers generally praise the scent of Method Concentrated Laundry Detergent in Lavender Cedar, describing it as pleasant, fresh, and long-lasting without being overpowering. Many note that the combination of soothing lavender and warm cedar creates a relaxing, natural aroma on their clothes. A few users, however, find the fragrance a bit too strong or artificial for their personal preference. Overall, the scent is received as one of the product's appealing features.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 74,
+    "candidatesTokenCount": 89,
+    "totalTokenCount": 163,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 74
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.97,
+  "timestamp_utc": "2026-10-17T09:44:38.387553+00:00",
+  "cache_hit": false
+}

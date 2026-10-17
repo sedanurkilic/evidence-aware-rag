@@ -1,0 +1,24 @@
+{
+  "cache_key": "c4c49e515cfcad7d91fdf09504ddf6aa1a77185f548cc63ccc41f1d95b9acfae",
+  "tag": "test/no_retrieval/test_rev_04",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Yes, reviewers generally report that the Smith & Nephew Allevyn Gentle Border Sacrum dressing stays in place very well, even over the sacral area where dressings often tend to roll or shift. Users frequently praise its reliable adhesion and ability to remain secure during movement while still being gentle on fragile skin upon removal.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 74,
+    "candidatesTokenCount": 63,
+    "totalTokenCount": 137,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 74
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 1.18,
+  "timestamp_utc": "2026-10-17T09:44:43.098303+00:00",
+  "cache_hit": false
+}

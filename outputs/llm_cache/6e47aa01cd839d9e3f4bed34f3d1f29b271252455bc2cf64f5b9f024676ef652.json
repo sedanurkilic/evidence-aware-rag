@@ -1,0 +1,24 @@
+{
+  "cache_key": "6e47aa01cd839d9e3f4bed34f3d1f29b271252455bc2cf64f5b9f024676ef652",
+  "tag": "test/dense_rag/test_cmp_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Chap-Lip Lip Balm Assorted Flavors 24 Pack Display has the higher average rating with a 4.7 out of 762 ratings [S5]. In comparison, the Chapstick Holiday Flavor Collection has an average rating of 4.4 from 77 ratings [S4].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 557,
+    "candidatesTokenCount": 63,
+    "totalTokenCount": 620,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 557
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.79,
+  "timestamp_utc": "2026-10-17T09:46:46.800708+00:00",
+  "cache_hit": false
+}

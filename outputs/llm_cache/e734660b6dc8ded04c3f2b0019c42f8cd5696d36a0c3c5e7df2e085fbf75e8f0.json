@@ -1,0 +1,24 @@
+{
+  "cache_key": "e734660b6dc8ded04c3f2b0019c42f8cd5696d36a0c3c5e7df2e085fbf75e8f0",
+  "tag": "test/no_retrieval/test_rm_04",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Yes, NeoCell Super Collagen Peptides is unflavored. Reviewers generally note that it dissolves well in both hot and cold liquids, though some mention it mixes best when stirred into warm beverages or blended into smoothies. Many users appreciate that it is virtually tasteless, though a few notice a very mild aftertaste if mixed only with plain water.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 75,
+    "candidatesTokenCount": 68,
+    "totalTokenCount": 143,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 75
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.87,
+  "timestamp_utc": "2026-10-17T09:45:00.811756+00:00",
+  "cache_hit": false
+}

@@ -1,0 +1,24 @@
+{
+  "cache_key": "d363a8f60f43ce7c9572c76d1648dda7786f8e45fffabdd30a5403d888e6d217",
+  "tag": "test/dense_rag/test_rm_03",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Yes, the Automatic Curling Iron is a portable rechargeable hair curler [S1]. However, reviewers consistently state that the battery life is terrible and does not last very long, with one noting it only lasts about 20 minutes [S1, S4, S5]. Additionally, the device will not work while plugged in if the battery is running low [S1], and another reviewer mentions the charging cord is not long enough to use while charging [S4].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 1021,
+    "candidatesTokenCount": 95,
+    "totalTokenCount": 1116,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1021
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 1.08,
+  "timestamp_utc": "2026-10-17T09:43:29.063634+00:00",
+  "cache_hit": false
+}

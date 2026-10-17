@@ -1,0 +1,24 @@
+{
+  "cache_key": "75361ca13cb39c7744dc788ed5f28992d63689ef24e8ca0d21b514fcd1089ca8",
+  "tag": "test/dense_rag/test_md_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "The METAMUCIL Powder with NO Added Sweetener, 283g has an item weight of 0.62 pounds [S2]. Additionally, it has a unit count of 9.98 ounces [S2].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 547,
+    "candidatesTokenCount": 50,
+    "totalTokenCount": 597,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 547
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.76,
+  "timestamp_utc": "2026-10-17T09:42:43.698148+00:00",
+  "cache_hit": false
+}

@@ -1,0 +1,24 @@
+{
+  "cache_key": "6e80489f112945ba4c329d5dee8aa82f1b98d8290e8a99de5358ed5c19b3c495",
+  "tag": "test/dense_rag/test_cmp_03",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: The sources provide information for Zim's Max-Freeze Pro Formula Gel, but do not contain any information or ratings for the Art of Sport Ultra Strength Recovery Cream.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 869,
+    "candidatesTokenCount": 41,
+    "totalTokenCount": 910,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 869
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.99,
+  "timestamp_utc": "2026-10-17T09:46:56.012505+00:00",
+  "cache_hit": false
+}

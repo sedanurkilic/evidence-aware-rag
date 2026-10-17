@@ -1,0 +1,24 @@
+{
+  "cache_key": "993aaaa188fb706f9d3215871a3043f9861c6bb066a06a2287d502a7e8fad364",
+  "tag": "test/no_retrieval/test_rev_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE because I do not have access to specific customer reviews or real-time feedback data for the Makryn heel grips liner.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 69,
+    "candidatesTokenCount": 31,
+    "totalTokenCount": 100,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 69
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.78,
+  "timestamp_utc": "2026-10-17T09:44:29.188360+00:00",
+  "cache_hit": false
+}

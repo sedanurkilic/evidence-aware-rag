@@ -1,0 +1,24 @@
+{
+  "cache_key": "b7280a94d80da6fa50734207f9ff254ac92674ce43e50f8fd9f7d1dbc3cc6a6b",
+  "tag": "test/no_retrieval/test_cmp_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: I do not have access to real-time Amazon product ratings or a database containing the specific average review scores for these exact Chapstick and Chap-Lip product listings.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 98,
+    "candidatesTokenCount": 41,
+    "totalTokenCount": 139,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 98
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 1.19,
+  "timestamp_utc": "2026-10-17T09:45:14.636935+00:00",
+  "cache_hit": false
+}

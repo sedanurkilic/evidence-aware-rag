@@ -1,0 +1,24 @@
+{
+  "cache_key": "b31ee5242650e5c0ad7a3eb82793ddbace41d5b38b1971f2d337ef97e67f3659",
+  "tag": "test/no_retrieval/test_rev_02",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: I do not have access to specific customer reviews for the iColor 2L rubber hot water bottle in my training data.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 70,
+    "candidatesTokenCount": 33,
+    "totalTokenCount": 103,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 70
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.87,
+  "timestamp_utc": "2026-10-17T09:44:33.779166+00:00",
+  "cache_hit": false
+}

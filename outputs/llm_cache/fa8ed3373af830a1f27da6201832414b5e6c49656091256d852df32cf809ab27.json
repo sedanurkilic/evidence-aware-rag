@@ -1,0 +1,24 @@
+{
+  "cache_key": "fa8ed3373af830a1f27da6201832414b5e6c49656091256d852df32cf809ab27",
+  "tag": "test/dense_rag/test_rm_05",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Yes, the Julian Bakery Pegan Thin Protein Bar in Sweet Sunflower Butter is vegan. Reviewers generally dislike the taste and texture, describing it as having a horrible flavor, an unpleasant aftertaste, and a weird texture that feels like overly compressed protein powder, though one reviewer noted it tastes better when heated in the microwave.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 521,
+    "candidatesTokenCount": 64,
+    "totalTokenCount": 585,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 521
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.75,
+  "timestamp_utc": "2026-10-17T09:43:37.744802+00:00",
+  "cache_hit": false
+}

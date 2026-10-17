@@ -1,0 +1,24 @@
+{
+  "cache_key": "be530821690e3bab27f4ab1bb2d0d43b556c0d1540bcc4d09e61d68a8825bc41",
+  "tag": "test/dense_rag/test_ins_03",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: The provided sources do not mention whether Quies Ear Plugs contain latex.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 764,
+    "candidatesTokenCount": 23,
+    "totalTokenCount": 787,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 764
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.79,
+  "timestamp_utc": "2026-10-17T09:47:04.819129+00:00",
+  "cache_hit": false
+}

@@ -1,0 +1,24 @@
+{
+  "cache_key": "586d44327ec785122b4068ec1c78bcb99100f1a1889519a2a9a95e4bb548ddf9",
+  "tag": "test/dense_rag/test_cmp_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: The provided sources do not contain information or ratings for the Chap-Lip Lip Balm Assorted Flavors 24 Pack Display.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 340,
+    "candidatesTokenCount": 34,
+    "totalTokenCount": 374,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 340
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.77,
+  "timestamp_utc": "2026-10-17T09:43:46.776472+00:00",
+  "cache_hit": false
+}

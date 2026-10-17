@@ -1,0 +1,24 @@
+{
+  "cache_key": "4ec7d0e93bae7bf79312b2134fb9a1b6b45fa65d80dbe899161e044eb72995bb",
+  "tag": "test/dense_rag/test_rm_06",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "The Art of Sport Ultra Strength Recovery Cream is not unscented [S1, S2, S3, S4]. Reviewers describe its smell as resembling wintergreen or having a menthol scent that is not overwhelming, though one reviewer compared the strong odor to traditional products used by elderly grandparents [S1, S2, S3, S4]. While some users enjoy the scent or receive compliments on a nice odor, others find the smell unpleasant [S1, S3, S4].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 859,
+    "candidatesTokenCount": 101,
+    "totalTokenCount": 960,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 859
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.87,
+  "timestamp_utc": "2026-10-17T09:43:42.371635+00:00",
+  "cache_hit": false
+}

@@ -1,0 +1,24 @@
+{
+  "cache_key": "3499d1e369c767535a533c3514cb49a49527227edea31cff9436fdf238fa340e",
+  "tag": "test/dense_rag/test_rm_03",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Yes, the Automatic Curling Iron is portable and rechargeable [S1]. However, reviewers note that the battery life is terrible, pointing out that it can run out of power quickly and will not work while plugged in if the battery is low [S1].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 1111,
+    "candidatesTokenCount": 51,
+    "totalTokenCount": 1162,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1111
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.99,
+  "timestamp_utc": "2026-10-17T09:46:28.980288+00:00",
+  "cache_hit": false
+}

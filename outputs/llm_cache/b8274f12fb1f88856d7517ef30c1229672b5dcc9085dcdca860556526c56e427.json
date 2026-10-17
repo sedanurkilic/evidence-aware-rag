@@ -1,0 +1,24 @@
+{
+  "cache_key": "b8274f12fb1f88856d7517ef30c1229672b5dcc9085dcdca860556526c56e427",
+  "tag": "test/no_retrieval/test_md_03",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: I do not have access to specific real-time product listings or catalog data for the Grenade Carb Killa 12-count bar flavor and manufacturer on Amazon.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 80,
+    "candidatesTokenCount": 42,
+    "totalTokenCount": 122,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 80
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.76,
+  "timestamp_utc": "2026-10-17T09:44:20.161481+00:00",
+  "cache_hit": false
+}

@@ -1,0 +1,24 @@
+{
+  "cache_key": "817a737e35bf6efe2824d5aad01dface65feb8e2d71773a4d4da78b67fe8b222",
+  "tag": "test/dense_rag/test_rev_02",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "No, reviewers explicitly report that the iColor 2L rubber hot water bottle does not leak [S1, S4]. One reviewer specifically notes that it features a screwable top that prevents water from leaking out [S5].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 1041,
+    "candidatesTokenCount": 47,
+    "totalTokenCount": 1088,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1041
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.77,
+  "timestamp_utc": "2026-10-17T09:43:06.227185+00:00",
+  "cache_hit": false
+}

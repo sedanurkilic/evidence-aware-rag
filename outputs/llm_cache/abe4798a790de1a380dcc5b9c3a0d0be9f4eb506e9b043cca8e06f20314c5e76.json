@@ -1,0 +1,24 @@
+{
+  "cache_key": "abe4798a790de1a380dcc5b9c3a0d0be9f4eb506e9b043cca8e06f20314c5e76",
+  "tag": "test/dense_rag/test_rm_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Yes, Plant Jym is a vegan plant protein that is dairy-free [S1, S3]. Reviewers generally praise its taste, with some calling it the best-tasting vegan protein they have ever had and noting that it tastes amazing [S1, S2]. However, at least one reviewer had a negative experience, describing a horrible taste that solely tastes like artificial sweeteners [S4].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 770,
+    "candidatesTokenCount": 82,
+    "totalTokenCount": 852,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 770
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 1.09,
+  "timestamp_utc": "2026-10-17T09:46:24.577442+00:00",
+  "cache_hit": false
+}

@@ -1,0 +1,24 @@
+{
+  "cache_key": "45305cd4a9c4790881940856cd49d398eb95dfe732f05612fe4570cabdff482b",
+  "tag": "test/dense_rag/test_md_04",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: The provided sources do not mention the color or the specific size dimensions of the Honeywell Compatible Replacement Pre-filter (2 Pack).",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 327,
+    "candidatesTokenCount": 33,
+    "totalTokenCount": 360,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 327
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.87,
+  "timestamp_utc": "2026-10-17T09:42:57.324435+00:00",
+  "cache_hit": false
+}

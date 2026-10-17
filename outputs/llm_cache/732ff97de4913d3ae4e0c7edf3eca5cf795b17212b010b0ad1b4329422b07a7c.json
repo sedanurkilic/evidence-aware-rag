@@ -1,0 +1,24 @@
+{
+  "cache_key": "732ff97de4913d3ae4e0c7edf3eca5cf795b17212b010b0ad1b4329422b07a7c",
+  "tag": "test/dense_rag/test_rm_02",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Yes, the Naked Jungle Natural Odor Eliminator Spray features no added fragrances [S2]. Reviewers have mixed opinions; one customer loves the \"mild natural scent\" and another noted a \"pleasant fragrance\" [S1, S3], while a dissatisfied reviewer stated it does not eliminate or cover smells [S5].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 845,
+    "candidatesTokenCount": 65,
+    "totalTokenCount": 910,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 845
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.79,
+  "timestamp_utc": "2026-10-17T09:43:24.272346+00:00",
+  "cache_hit": false
+}

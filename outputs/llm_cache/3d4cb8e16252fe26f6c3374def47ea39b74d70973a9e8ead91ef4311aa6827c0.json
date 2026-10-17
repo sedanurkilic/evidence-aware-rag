@@ -1,0 +1,24 @@
+{
+  "cache_key": "3d4cb8e16252fe26f6c3374def47ea39b74d70973a9e8ead91ef4311aa6827c0",
+  "tag": "test/dense_rag/test_md_03",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: The sources mention that every flavor is very good and name Grenade as the maker, but they do not list the specific individual flavors included in the 12 count pack.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 421,
+    "candidatesTokenCount": 43,
+    "totalTokenCount": 464,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 421
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.76,
+  "timestamp_utc": "2026-10-17T09:42:52.708916+00:00",
+  "cache_hit": false
+}

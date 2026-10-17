@@ -1,0 +1,9 @@
+# Versions used for all reported runs (Python 3.12.2). For a full lock file run: pip freeze > requirements-lock.txt
+chromadb==1.5.9
+numpy==2.5.4
+python-dotenv==1.2.4
+PyYAML==6.0.3
+requests==2.34.2
+sentence-transformers==6.1.0
+torch==2.14.1
+transformers==5.20.1

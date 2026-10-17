@@ -1,0 +1,24 @@
+{
+  "cache_key": "6c7ea6eae55d216056bd931265ab94e9ec594f9a14756aceadf3dbc8a9f20ce8",
+  "tag": "test/no_retrieval/test_rm_05",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: I do not have specific information regarding the vegan status, taste, or texture of the Julian Bakery Pegan Thin Protein Bar in Sweet Sunflower Butter.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 80,
+    "candidatesTokenCount": 37,
+    "totalTokenCount": 117,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 80
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 1.08,
+  "timestamp_utc": "2026-10-17T09:45:05.523302+00:00",
+  "cache_hit": false
+}

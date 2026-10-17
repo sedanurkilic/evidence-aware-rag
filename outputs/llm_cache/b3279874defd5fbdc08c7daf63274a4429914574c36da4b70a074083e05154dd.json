@@ -1,0 +1,24 @@
+{
+  "cache_key": "b3279874defd5fbdc08c7daf63274a4429914574c36da4b70a074083e05154dd",
+  "tag": "test/no_retrieval/test_cmp_02",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: I do not have access to real-time Amazon customer ratings or sales data for the Grenade Carb Killa or Clif Bar Luna Bar products.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 101,
+    "candidatesTokenCount": 38,
+    "totalTokenCount": 139,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 101
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.78,
+  "timestamp_utc": "2026-10-17T09:45:18.732455+00:00",
+  "cache_hit": false
+}

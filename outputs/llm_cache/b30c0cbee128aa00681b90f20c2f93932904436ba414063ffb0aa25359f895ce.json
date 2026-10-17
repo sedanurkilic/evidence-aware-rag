@@ -1,0 +1,24 @@
+{
+  "cache_key": "b30c0cbee128aa00681b90f20c2f93932904436ba414063ffb0aa25359f895ce",
+  "tag": "test/no_retrieval/test_ins_03",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Quies wax ear plugs are primarily made of natural wax and 100% pure cotton, meaning they do not contain natural rubber latex. However, Quies also manufactures silicone and foam ear plugs, so material composition can vary depending on the specific product line. If you have a severe latex allergy, it is best to check the specific packaging of the variety you are purchasing.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 64,
+    "candidatesTokenCount": 76,
+    "totalTokenCount": 140,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 64
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.88,
+  "timestamp_utc": "2026-10-17T09:45:36.849902+00:00",
+  "cache_hit": false
+}

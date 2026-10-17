@@ -1,0 +1,24 @@
+{
+  "cache_key": "8836e5a83574ee7a3d47415d14c900f79ed3ac3e2d6509d3f4005b08ef767d90",
+  "tag": "test/dense_rag/test_rev_02",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "No, reviewers do not report leaking; in fact, customers specifically note that the hot water bottle does not leak [S1, S4].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 1010,
+    "candidatesTokenCount": 29,
+    "totalTokenCount": 1039,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1010
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.8,
+  "timestamp_utc": "2026-10-17T09:46:10.770819+00:00",
+  "cache_hit": false
+}

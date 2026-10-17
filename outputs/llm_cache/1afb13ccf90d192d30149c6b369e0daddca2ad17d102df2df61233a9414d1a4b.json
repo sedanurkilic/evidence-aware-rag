@@ -1,0 +1,24 @@
+{
+  "cache_key": "1afb13ccf90d192d30149c6b369e0daddca2ad17d102df2df61233a9414d1a4b",
+  "tag": "test/no_retrieval/test_cmp_03",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: I do not have access to real-time Amazon product ratings or specific database metrics for these exact items to compare their average ratings reliably.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 95,
+    "candidatesTokenCount": 35,
+    "totalTokenCount": 130,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 95
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 1.19,
+  "timestamp_utc": "2026-10-17T09:45:23.650422+00:00",
+  "cache_hit": false
+}

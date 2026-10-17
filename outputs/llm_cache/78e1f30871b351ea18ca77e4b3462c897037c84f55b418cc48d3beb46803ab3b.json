@@ -1,0 +1,24 @@
+{
+  "cache_key": "78e1f30871b351ea18ca77e4b3462c897037c84f55b418cc48d3beb46803ab3b",
+  "tag": "test/dense_rag/test_md_03",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "The Grenade Carb Killa High Protein and Low Sugar Candy Bar has a Caramel Chaos flavor [S4]. The manufacturer listed for the product is Grenade USA, LLC [S4].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 681,
+    "candidatesTokenCount": 38,
+    "totalTokenCount": 719,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 681
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.88,
+  "timestamp_utc": "2026-10-17T09:45:57.337965+00:00",
+  "cache_hit": false
+}

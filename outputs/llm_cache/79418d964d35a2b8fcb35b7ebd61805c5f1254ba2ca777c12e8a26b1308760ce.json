@@ -1,0 +1,24 @@
+{
+  "cache_key": "79418d964d35a2b8fcb35b7ebd61805c5f1254ba2ca777c12e8a26b1308760ce",
+  "tag": "test/no_retrieval/test_ins_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: I do not have access to specific manufacturer warranty details for the POVOS Electric Razor for Men.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 67,
+    "candidatesTokenCount": 27,
+    "totalTokenCount": 94,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 67
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.78,
+  "timestamp_utc": "2026-10-17T09:45:27.743711+00:00",
+  "cache_hit": false
+}

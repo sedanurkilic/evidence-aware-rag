@@ -1,0 +1,24 @@
+{
+  "cache_key": "b9d3832d5aa3b32246b239900a5db55a7775239d5a24fa00032010441ea88060",
+  "tag": "test/no_retrieval/test_md_02",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: I do not have access to real-time product listings or exact inventory specifications for specific Amazon product bundles such as item weights and exact unit counts beyond the package title.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 86,
+    "candidatesTokenCount": 41,
+    "totalTokenCount": 127,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 86
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.75,
+  "timestamp_utc": "2026-10-17T09:44:15.654111+00:00",
+  "cache_hit": false
+}

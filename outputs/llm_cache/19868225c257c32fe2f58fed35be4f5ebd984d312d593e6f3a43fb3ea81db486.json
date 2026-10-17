@@ -1,0 +1,24 @@
+{
+  "cache_key": "19868225c257c32fe2f58fed35be4f5ebd984d312d593e6f3a43fb3ea81db486",
+  "tag": "test/dense_rag/test_rev_01",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Reviewers are divided on whether the Makryn heel grips liner stays in place. Some customers report that the product does not stay attached and that the adhesive sticks to the shoe's interior rather than the liner itself [S1, S2]. Conversely, other reviewers state that the product works as advertised to keep shoes from slipping [S3].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 493,
+    "candidatesTokenCount": 69,
+    "totalTokenCount": 562,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 493
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.78,
+  "timestamp_utc": "2026-10-17T09:43:01.731224+00:00",
+  "cache_hit": false
+}

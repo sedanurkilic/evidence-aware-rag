@@ -1,0 +1,24 @@
+{
+  "cache_key": "7e8b8610cc8a0dded8b6db168e1b9cc4a15e40f3fe8f21cef0a8fcfa92fcecdf",
+  "tag": "test/dense_rag/test_cmp_02",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "INSUFFICIENT_EVIDENCE: The provided sources do not contain any information about Grenade Carb Killa High Protein and Low Sugar Candy Bar (12 Count) or its customer ratings.",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 473,
+    "candidatesTokenCount": 39,
+    "totalTokenCount": 512,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 473
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.88,
+  "timestamp_utc": "2026-10-17T09:43:51.387212+00:00",
+  "cache_hit": false
+}

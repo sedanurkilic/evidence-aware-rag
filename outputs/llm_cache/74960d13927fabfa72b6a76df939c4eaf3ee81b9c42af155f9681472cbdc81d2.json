@@ -1,0 +1,24 @@
+{
+  "cache_key": "74960d13927fabfa72b6a76df939c4eaf3ee81b9c42af155f9681472cbdc81d2",
+  "tag": "test/dense_rag/test_rev_03",
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "text": "Reviewers have mixed opinions on the scent of the Lavender Cedar Method detergent. One customer loves all the scents provided by the company [S1], and another states that it has a nice scent and cleans well [S3]. However, a third reviewer noted that it takes a lot of pumps for clothes to actually smell like the scent [S2].",
+  "finish_reason": "STOP",
+  "block_reason": null,
+  "usage": {
+    "promptTokenCount": 711,
+    "candidatesTokenCount": 70,
+    "totalTokenCount": 781,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 711
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "latency_s": 0.99,
+  "timestamp_utc": "2026-10-17T09:46:15.464974+00:00",
+  "cache_hit": false
+}
