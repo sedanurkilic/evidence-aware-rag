@@ -6,12 +6,22 @@ Read `REPORT.md` first (results, uncertainty, limitations), then `RESEARCH_LOG.m
 ## Requirements
 Python 3.12, CPU only. `pip install -r requirements.txt`. Free Gemini API key in `.env` (copy `.env.example`, never commit `.env`).
 
-## Reproduce
+## Quick check (no API key, no download, no index build)
+The fixed corpus (`data/processed/`) and every saved run (`outputs/`) are in the repository, so the reported numbers can be recomputed in seconds:
+```bash
+pip install -r requirements.txt
+python src/validate_eval.py evaluation/test.jsonl test
+python src/metrics.py evaluation/test.jsonl outputs/test_exp1/dense_rag.jsonl
+```
+Expected: `OK`, then `answerable: all_facts 15 / 17` (baseline 12 / 17, no_retrieval 5 / 17 by the regex scorer; manual scores are in `outputs/manual_scores_test.csv`).
+
+## Reproduce from scratch
 ```bash
 python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
 cp .env.example .env            # then put GEMINI_API_KEY=... into .env
 
-# 1. raw data (Amazon Reviews 2023, Health_and_Personal_Care; reviews and meta) into data/raw/
+# 1. OPTIONAL, only to rebuild the corpus: raw data from Amazon Reviews 2023 (McAuley Lab), category Health_and_Personal_Care (reviews and meta files), into data/raw/.
+#    Without it you can start at step `python src/index.py`, because data/processed/ is already in the repository.
 mkdir -p data/raw
 #   data/raw/Health_and_Personal_Care.jsonl.gz
 #   data/raw/meta_Health_and_Personal_Care.jsonl.gz
